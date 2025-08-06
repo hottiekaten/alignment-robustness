@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": ["Bash(python src/*)", "Read(src/*)"],
+    "deny": ["Bash(curl:*)"]
+  },
+  "env": {
+    "ANTHROPIC_API_KEY": "YOUR_API_KEY",
+    "CLAUDE_MODEL": "claude-4-opus"
+  },
+  "includeCoAuthoredBy": false
+}
